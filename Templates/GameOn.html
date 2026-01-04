@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameOn</title>
+    <meta name="description" content="GameOn is an interactive gaming platform where users can play games and compete. Built using html, css and js.">
+    <meta name="keywords" content="GameOn, online games, gaming website, play games, web games, JavaScript games">
+    <meta name="author" content="Akh7il">
+    <link rel="stylesheet" href="../css/GameOn.css">
+    <link rel="stylesheet" href="../css/GameOnResponsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gasoek+One&display&family=Asimovian&display&family=Grenze+Gotisch:wght@100..900&display&family=Teko:wght@300..700&display&family=Black+Ops+One&display&family=Genos:ital,wght@0,100..900;1,100..900&display&family=Bitter:ital@0;1&display&family=Share+Tech&display&family=Monomaniac+One&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+    <div class="Hero" id="home">
+        <div class="navbar">
+            <div class="navbar_left">
+                <span class="GO">G</span>ame<span class="GO">O</span>n
+            </div>
+            <div class="navbar_middle">
+                <ul>
+                    <a href="#home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#AboutUs">
+                        <li>AboutUs</li>
+                    </a>
+                    <a href="#ContactUs">
+                        <li>ContactUs</li>
+                    </a>
+                    <a href="#Games">
+                        <li>Games</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="navbar_right"></div>
+        </div>
+        <div class="hero_main">
+            <div class="blur_hero_main">
+                <div class="hero_main_left">
+                    <h1 class="hero_main_left_head">
+                        Where Legends Are Forged
+                    </h1>
+                    <p class="hero_main_left_content">
+                        Welcome to GameOn where gaming is more than entertainment it’s a way of life. Built for
+                        players who demand performance style and immersion GameOn delivers a premium gaming
+                        experience powered by cutting edge design and next level gameplay culture.
+                        This is where passion meets precision play smarter play harder and play without limits.
+                    </p>
+                    <div class="hero_main_left_footer">
+                        <a href="#Games"><button class="play_now">play now</button></a>
+                    </div>
+                </div>
+                <div class="hero_main_right">
+                    <img src="../Images/GameController.png" alt="GameOn" class="GameController" id="GameController">
+                    <p class="GameOn" id="GameOn"><span class="GO">G</span>ame<span class="GO">O</span>n</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutus" id="AboutUs">
+        <div class="aboutus_card">
+            <h1 class="aboutus_card_head"><span class="GO">G</span>ame<span class="GO">O</span>n</h1>
+            <p class="aboutus_card_subhead">where passion meets precision play smarter play harder play without limits
+            </p>
+            <div class="aboutus_card_content">
+                <p class="aboutus_card_description">At GameOn, our mission is to deliver a world-class gaming experience
+                    that combines cutting-edge technology, immersive design, and a vibrant community for gamers of all
+                    levels. Our vision is to become the premier platform where gamers connect, compete, and elevate
+                    their skills, redefining the standards of interactive entertainment. We stand out because of our
+                    high-performance interface, seamless cross-device experience, community-driven competitive gameplay,
+                    and a culture of innovation and passion that drives everything we do.</p>
+                <div class="team_cards">
+                    <div class="team_card">
+                        <div class="card_image card1"></div>
+                        <p class="role">
+                            <span>Heisenberg</span>
+                            <span class="roles">Lead Developer</span>
+                        </p>
+                    </div>
+                    <div class="team_card">
+                        <div class="card_image card2"></div>
+                        <p class="role">
+                            <span>Sergio Marquina</span>
+                            <span class="roles">Technical Director</span>
+                        </p>
+                    </div>
+                    <div class="team_card">
+                        <div class="card_image card3"></div>
+                        <p class="role">
+                            <span>Jesse Pinkman</span>
+                            <span class="roles">Creative Director</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="games" id="Games">
+        <h1 class="games_head"><span class="GO">g</span>ames</h1>
+        <div class="game_category">
+            <button class="category" data-target="All">all games</button>
+            <button class="category" data-target="Multiplayer">play with friends</button>
+            <button class="category" data-target="Puzzle">puzzle game</button>
+            <button class="category" data-target="Strategy">stratergy game</button>
+            <button class="category" data-target="Arcade">arcade game</button>
+            <button class="category" data-target="SinglePlayer">single player</button>
+            <button class="category" data-target="Educational">educational game</button>
+        </div>
+        <div class="show_games_card">
+            <div class="page active" id="All">
+                <div class="game_card">
+                    <div class="game_image snake"></div>
+                    <div class="game_name">
+                        <p class="name">feed the monster</p>
+                        <a href="../GAMES/SNAKE GAME/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Arcade</button>
+                        <button class="game_tag">Retro</button>
+                        <button class="game_tag">Classic</button>
+                    </div>
+                </div>
+                <div class="game_card">
+                    <div class="game_image tic-tact-toe"></div>
+                    <div class="game_name">
+                        <p class="name">tic tac toe</p>
+                        <a href="../GAMES/TIC TAC TOE/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Multiplayer</button>
+                        <button class="game_tag">Board Game</button>
+                        <button class="game_tag">Strategy</button>
+                    </div>
+                </div>
+                <div class="game_card">
+                    <div class="game_image rock-paper-scissors"></div>
+                    <div class="game_name">
+                        <p class="name">rock peper scissors</p>
+                        <a href="../GAMES/ROCK PAPER SCISSORS/index.html" class="playnow_btn"><button
+                                class="playnow_btn">play now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Single Player</button>
+                        <button class="game_tag">Hand Game</button>
+                        <button class="game_tag">Casual</button>
+                    </div>
+                </div>
+                <div class="game_card">
+                    <div class="game_image coin-toss"></div>
+                    <div class="game_name">
+                        <p class="name">coin toss</p>
+                        <a href="../GAMES/COIN TOSS/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Single Player</button>
+                        <button class="game_tag">Luck</button>
+                        <button class="game_tag">Fun</button>
+                    </div>
+                </div>
+                <div class="game_card">
+                    <div class="game_image sportiq"></div>
+                    <div class="game_name">
+                        <p class="name">sportiq</p>
+                        <a href="../GAMES/SPORTIQ/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Educational</button>
+                        <button class="game_tag">Entertaining</button>
+                        <button class="game_tag">Brain</button>
+                    </div>
+                </div>
+                <div class="game_card">
+                    <div class="game_image memoycard"></div>
+                    <div class="game_name">
+                        <p class="name">memory card game</p>
+                        <a href="../GAMES/CARD GAME/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Memory</button>
+                        <button class="game_tag">Puzzle</button>
+                        <button class="game_tag">Matching Game</button>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="Multiplayer">
+                <div class="game_card">
+                    <div class="game_image tic-tact-toe"></div>
+                    <div class="game_name">
+                        <p class="name">tic tac toe</p>
+                        <a href="../GAMES/TIC TAC TOE/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Multiplayer</button>
+                        <button class="game_tag">Board Game</button>
+                        <button class="game_tag">Strategy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="Puzzle">
+                <div class="game_card">
+                    <div class="game_image memoycard"></div>
+                    <div class="game_name">
+                        <p class="name">memory card game</p>
+                        <a href="../GAMES/CARD GAME/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Memory</button>
+                        <button class="game_tag">Puzzle</button>
+                        <button class="game_tag">Matching Game</button>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="Strategy">
+                <div class="game_card">
+                    <div class="game_image tic-tact-toe"></div>
+                    <div class="game_name">
+                        <p class="name">tic tac toe</p>
+                        <a href="../GAMES/TIC TAC TOE/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Multiplayer</button>
+                        <button class="game_tag">Board Game</button>
+                        <button class="game_tag">Strategy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="Arcade">
+                <div class="game_card">
+                    <div class="game_image snake"></div>
+                    <div class="game_name">
+                        <p class="name">feed the monster</p>
+                        <a href="../GAMES/SNAKE GAME/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Arcade</button>
+                        <button class="game_tag">Retro</button>
+                        <button class="game_tag">Classic</button>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="SinglePlayer">
+                <div class="game_card">
+                    <div class="game_image snake"></div>
+                    <div class="game_name">
+                        <p class="name">feed the monster</p>
+                        <a href="../GAMES/SNAKE GAME/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Arcade</button>
+                        <button class="game_tag">Retro</button>
+                        <button class="game_tag">Classic</button>
+                    </div>
+                </div>
+                <div class="game_card">
+                    <div class="game_image rock-paper-scissors"></div>
+                    <div class="game_name">
+                        <p class="name">rock peper scissors</p>
+                        <a href="../GAMES/ROCK PAPER SCISSORS/index.html" class="playnow_btn"><button
+                                class="playnow_btn">play now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Single Player</button>
+                        <button class="game_tag">Hand Game</button>
+                        <button class="game_tag">Casual</button>
+                    </div>
+                </div>
+                <div class="game_card">
+                    <div class="game_image coin-toss"></div>
+                    <div class="game_name">
+                        <p class="name">coin toss</p>
+                        <a href="../GAMES/COIN TOSS/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Single Player</button>
+                        <button class="game_tag">Luck</button>
+                        <button class="game_tag">Fun</button>
+                    </div>
+                </div>
+                <div class="game_card">
+                    <div class="game_image sportiq"></div>
+                    <div class="game_name">
+                        <p class="name">sportiq</p>
+                        <a href="../GAMES/SPORTIQ/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Educational</button>
+                        <button class="game_tag">Entertaining</button>
+                        <button class="game_tag">Brain</button>
+                    </div>
+                </div>
+                <div class="game_card">
+                    <div class="game_image memoycard"></div>
+                    <div class="game_name">
+                        <p class="name">memory card game</p>
+                        <a href="../GAMES/CARD GAME/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Memory</button>
+                        <button class="game_tag">Puzzle</button>
+                        <button class="game_tag">Matching Game</button>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="Educational">
+                <div class="game_card">
+                    <div class="game_image sportiq"></div>
+                    <div class="game_name">
+                        <p class="name">sportiq</p>
+                        <a href="../GAMES/SPORTIQ/index.html" class="playnow_btn"><button class="playnow_btn">play
+                                now</button></a>
+                    </div>
+                    <div class="game_tags">
+                        <button class="game_tag">Educational</button>
+                        <button class="game_tag">Entertaining</button>
+                        <button class="game_tag">Brain</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="ContactUs">
+        <div class="contact_card">
+            <div class="contact_card_left"></div>
+            <div class="contact_card_right">
+                <h1 class="contact_head">contact us</h1>
+                <form action="" class="contact_form" id="contact_form">
+                    <input type="text" name="name" id="username" placeholder="name">
+                    <input type="email" name="email" id="user_email" placeholder="email">
+                    <textarea name="message" id="message" placeholder="message"></textarea>
+                    <button type="submit" class="submit_message">submit</button>
+                    <p class="status" id="status"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../js/GameOn.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+@media (max-width:567px){
+    .login_card{
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+        max-height: 700px;
+    }
+    .card_left{
+        width: 100%;
+        height: 35%;
+        background-position: top;
+    }
+    .card_brand, .message, .sub_message{
+        text-align: center;
+        padding-left: 0;
+        word-spacing: 0;
+    }
+    .login_form{
+        align-items: center;
+        padding-left: 0;
+    }
+    .signup_form{
+        align-items: center;
+        padding-left: 0;
+    }
+    .toggler{
+        text-align: center;
+        padding-left: 0;
+    }
+}
+@media (min-width:568px) and (max-width:768px){
+    .login_card{
+        flex-direction: column;
+        width: 80%;
+        height: 95%;
+        max-height: 950px;
+    }
+    .card_left{
+        width: 100%;
+        height: 35%;
+        background-position: top;
+    }
+    .card_brand, .message, .sub_message{
+        text-align: center;
+        padding-left: 0;
+        word-spacing: 0;
+        padding-top: 0;
+    }
+    .login_form{
+        align-items: center;
+        padding-left: 0;
+    }
+    .signup_form{
+        align-items: center;
+        padding-left: 0;
+    }
+    .toggler{
+        text-align: center;
+        padding-left: 0;
+    }
+    .card_brand{
+        font-size: 3.5rem;
+    }
+    .message{
+        font-size: 1.8rem;
+    }
+    .sub_message{
+        font-size: 1.3rem;
+    }
+    .btn{
+        height: 50px;
+    }
+    input{
+        font-size: 1.3rem;
+    }
+}
+@media (min-width:769px) and (max-width:992px){
+    .login_card{
+        flex-direction: column;
+        width: 85%;
+        height: 95%;
+        max-height: 950px;
+    }
+    .card_left{
+        width: 100%;
+        height: 35%;
+        background-position: top;
+    }
+    .card_brand, .message, .sub_message{
+        text-align: center;
+        padding-left: 0;
+        word-spacing: 0;
+        padding-top: 0;
+    }
+    .login_form{
+        align-items: center;
+        padding-left: 0;
+    }
+    .signup_form{
+        align-items: center;
+        padding-left: 0;
+    }
+    .toggler{
+        text-align: center;
+        padding-left: 0;
+    }
+    .card_brand{
+        font-size: 4rem;
+    }
+    .message{
+        font-size: 1.9rem;
+    }
+    .sub_message{
+        font-size: 1.4rem;
+    }
+    .btn{
+        height: 55px;
+        font-size: 1.8rem;
+    }
+    input{
+        font-size: 1.5rem;
+    }
+    .login_form input{
+        height: 20%;
+    }
+    .forgot{
+        font-size: 1.3rem;
+    }
+    .signup_form input{
+        height: 18%;
+    }
+}
+@media (min-width:1024px) and (min-height:1366px){
+    .login_card{
+        flex-direction: column;
+        width: 85%;
+        height: 95%;
+    }
+    .card_left{
+        width: 100%;
+        height: 35%;
+        background-position: top;
+    }
+    .card_brand, .message, .sub_message{
+        text-align: center;
+        padding-left: 0;
+        word-spacing: 0;
+        padding-top: 0;
+    }
+    .login_form{
+        align-items: center;
+        padding-left: 0;
+    }
+    .signup_form{
+        align-items: center;
+        padding-left: 0;
+    }
+    .toggler{
+        text-align: center;
+        padding-left: 0;
+    }
+    .card_brand{
+        font-size: 5.5rem;
+        padding: 0 0;
+    }
+    .message{
+        font-size: 2.1rem;
+    }
+    .sub_message{
+        font-size: 1.5rem;
+    }
+    .btn{
+        height: 80px;
+        font-size: 2.3rem;
+    }
+    input{
+        font-size: 1.9rem;
+    }
+    .login_form input{
+        height: 20%;
+    }
+    .forgot{
+        font-size: 1.8rem;
+    }
+    .signup_form input{
+        height: 18%;
+    }
+}
