@@ -472,7 +472,7 @@ body {
 }
 
 .coin-toss {
-    background: url("../Images/Coin-Toss.webp");
+    background: url("../Images/Coin-Toss.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -578,6 +578,11 @@ body {
     font-size: 1.1rem;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+#message {
+    resize: none;
+    scrollbar-width: none;
 }
 
 .contact_form input,
